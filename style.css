@@ -1,1 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+
+h1 {
+    font-weight: lighter;
+    font-size: 60px;
+}
+
+#greenBox {
+    border: 8px solid lightgreen;
+    height: 20%;
+    background-color: lightgrey;
+    padding-top: 85px;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+}
+
+#redBox {
+    display: flex;
+    flex-direction: row;
+    border: 8px solid red;
+    width: 40%;
+    height: 900px;
+
+    justify-content: space-evenly;
+}
+
+label, input{
+    padding: 10px 0;
+    width: 240px;
+}
+button{
+    margin-top: 10px;
+    width: 217px;
+}
+
+#blueBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 8px solid blue;
+    width: 40%;
+    height: 900px;
+    position: relative;
+}
+
+#purpleBox {
+    border: 8px solid magenta;
+    height: 10%;
+}
+
+#yellowBox {
+    border: 8px solid yellow;
+    height: 85%;
+}
 
